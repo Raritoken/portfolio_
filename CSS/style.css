@@ -1,6 +1,56 @@
-.werkervaring, .opleidingen {
+body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: blue;
+    overflow-x: hidden;
+    position: relative;
+    color: white;
+    background-color: black;
+    margin-top: 5vh;
+}
+.intro {
+    text-align: left;
+    transform: translateX(55vw);
+    max-width: 40vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: purple;
+}
+
+.werkervaring, .opleidingen {
+    transform: translateY(10vh);
+    color: rgb(255, 208, 0);
+}
+
+.werk  {
+    transform: translateX(21.5vw) translateY(4vh);
+    max-width: 40vw;
+}
+
+.shabu, .hema, .action {
+    transform: translateX(7.5vw) translateY(4vh);
+    max-width: 40vw;
+    text-align: center;
+}
+
+.s_context, .h_context, .a_context {
+    transform: translateX(7.5vw) translateY(4vh);
+    max-width: 40vw;
+    text-align: center;
+}
+
+.opleiding {
+    transform: translateX(66vw) translateY(-67vh);
+    max-width: 40vw;
+}
+
+.informatica, .vavo, .havo {
+    transform: translateX(50vw) translateY(-67vh);
+    max-width: 40vw;
+    text-align: center;
+}
+
+.i_context, .v_context, .ha_context {
+    transform: translateX(50vw) translateY(-67vh);
+    max-width: 40vw;
+    text-align: center;
 }
 
 .footer {
