@@ -11,7 +11,7 @@ body {
     transform: translateX(55vw);
     max-width: 40vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: purple;
+    color: rgb(175, 15, 175);
 }
 
 .werkervaring, .opleidingen {
