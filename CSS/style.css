@@ -6,6 +6,7 @@ body {
     background-color: black;
     margin-top: 5vh;
 }
+
 .intro {
     text-align: left;
     transform: translateX(55vw);
